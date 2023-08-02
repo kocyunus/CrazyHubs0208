@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02b207c89dc3cfa43ac5a34107c5e25d, type: 3}
+  m_Name: EnemyBlueData
+  m_EditorClassIdentifier: 
+  muzzlePool: {fileID: 11400000, guid: a8672e3a1855fe348aa212a068e2b6b9, type: 2}
+  projectilePool: {fileID: 11400000, guid: ed64a8001b6e9074ebce8176f50948e4, type: 2}
+  hitPool: {fileID: 11400000, guid: bad2dbb28c7e4844b8e13d974ce0c437, type: 2}

@@ -1,0 +1,4 @@
+repository "CrazyHubs@Kocyunus@cloud"
+  path "/"
+    br "/main"
+    co "/main"

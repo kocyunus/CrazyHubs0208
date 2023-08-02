@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02b207c89dc3cfa43ac5a34107c5e25d, type: 3}
+  m_Name: GoldFire
+  m_EditorClassIdentifier: 
+  muzzlePool: {fileID: 11400000, guid: bc3791e649bad2b4a85d8c68f17c115c, type: 2}
+  projectilePool: {fileID: 11400000, guid: b784e22d00c25714bb0159d7f4d5d59b, type: 2}
+  hitPool: {fileID: 11400000, guid: a5e35e54c07591446b5fe74a3ef0210c, type: 2}

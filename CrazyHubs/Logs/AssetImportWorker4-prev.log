@@ -1,0 +1,248 @@
+Using pre-set license
+Built from '2022.3/release' branch; Version is '2022.3.0f1 (fb119bb0b476) revision 16454043'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'tr' Physical Memory: 16175 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.0f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+C:/Projects/CrazyHubs
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+58678
+Successfully changed project path to: C:/Projects/CrazyHubs
+C:/Projects/CrazyHubs
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [21308] Host "[IP] 192.168.1.108 [Port] 0 [Flags] 2 [Guid] 94184650 [EditorId] 94184650 [Version] 1048832 [Id] WindowsEditor(7,Yunus) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [21308] Host "[IP] 192.168.1.108 [Port] 0 [Flags] 2 [Guid] 94184650 [EditorId] 94184650 [Version] 1048832 [Id] WindowsEditor(7,Yunus) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 11.73 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.0f1 (fb119bb0b476)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Projects/CrazyHubs/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 6600 (ID=0x73ff)
+    Vendor:   ATI
+    VRAM:     8147 MB
+    Driver:   31.0.14051.5006
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.0f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56632
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.0f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.0f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007801 seconds.
+- Loaded All Assemblies, in  0.273 seconds
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 209 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.489 seconds
+Domain Reload Profiling: 761ms
+	BeginReloadAssembly (67ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (52ms)
+	LoadAllAssembliesAndSetupDomain (117ms)
+		LoadAssemblies (66ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (111ms)
+			TypeCache.Refresh (111ms)
+				TypeCache.ScanAssembly (101ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (490ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (440ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (308ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (86ms)
+			ProcessInitializeOnLoadMethodAttributes (42ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Projects\CrazyHubs\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Projects\CrazyHubs\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.720 seconds
+Refreshing native plugins compatible for Editor in 5.51 ms, found 6 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.729 seconds
+Domain Reload Profiling: 1447ms
+	BeginReloadAssembly (99ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (18ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (559ms)
+		LoadAssemblies (253ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (347ms)
+			TypeCache.Refresh (311ms)
+				TypeCache.ScanAssembly (299ms)
+			ScanForSourceGeneratedMonoScriptInfo (24ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (730ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (572ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (29ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (73ms)
+			ProcessInitializeOnLoadAttributes (409ms)
+			ProcessInitializeOnLoadMethodAttributes (53ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 4.74 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6162 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 94 unused Assets / (424.5 KB). Loaded Objects now: 6635.
+Memory consumption went from 301.2 MB to 300.8 MB.
+Total: 4.305200 ms (FindLiveObjects: 0.408600 ms CreateObjectMapping: 0.365000 ms MarkObjects: 3.290800 ms  DeleteObjects: 0.239900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/IconTargetFollower.cs: 0a134dc009c2b65a9cefd3d6bc215ca5 -> 2eeac594458a93ed0b522eec0ac90187
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/EnemyRadar.cs: 6bf109bc4bb5069b4356c423d6690a86 -> aeaeae7e8a1a8e6e3906513da88095ef
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/LookCamera.cs: e4c6d775271c50932426183619603eb8 -> 3c7b657a3f19238b12c5d93ab8a140ba
+  custom:scripting/monoscript/fileName/EnemyFrontCheckThrower.cs: e6d2643acfe9e3ccfe3e4e1a7a1d9568 -> f8400a36827bfc6adaafa51082288699
+  custom:scripting/monoscript/fileName/IconTarget.cs: 7b6e60b97894a91bcd70a88281db8771 -> ae7432364f6008bbf61a82c15e97ee49
+  custom:scripting/monoscript/fileName/Singleton.cs: 716086397f6fce3cf59561531ac052e5 -> 8f6297df34271fdb1ce2d9607ec6261d
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/SelfPutPoolShutgunPRojectile.cs: cf2a2d690806a1cd30fc6b12dc8b0173 -> 786d5fbd3064bbbf65e7b3f2b8811d3e
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/RadarChanger.cs: 155b606ae9047319175c9d5a3862516b -> a057cf9f382c80ce38842b0b89fd1e55
+  custom:scripting/monoscript/fileName/ScriptablePooler.cs: 7552244f74fc252daee36eb2f1d5b2e9 -> b625d8144fc19f133667031c7c8a0513
+  custom:scripting/monoscript/fileName/SelfPutPool.cs: 7790060eac3396f64df98c98708c0772 -> 20bfc76168c3ea3aabcffde4368cad1a
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/DamageNumberSpawner.cs: 1c3c7bec83b17e1744039bcadc3d6c4e -> 0428bd6e4b1575250ce53aba5154ed3c
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 75444.186851 seconds.
+  path: Assets/FarmerWar/Environment/MoonlightStudios/Casual Farming Pack/Models/Nature/Bush_D.fbx
+  artifactKey: Guid(0e0574ecfca8fe9469165c77509d2edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FarmerWar/Environment/MoonlightStudios/Casual Farming Pack/Models/Nature/Bush_D.fbx using Guid(0e0574ecfca8fe9469165c77509d2edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4541b848e87820c220cf97ac6334449') in 0.017725 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/FarmerWar/Environment/MoonlightStudios/Casual Farming Pack/Models/Nature/Flower_B.fbx
+  artifactKey: Guid(ce314ce552e7a744fb1a8ad48d327f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FarmerWar/Environment/MoonlightStudios/Casual Farming Pack/Models/Nature/Flower_B.fbx using Guid(ce314ce552e7a744fb1a8ad48d327f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6aaa90732bb7c2a918c0e0cb4cf88f8') in 0.002043 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/FarmerWar/Environment/MoonlightStudios/Casual Farming Pack/Models/Nature/Flower_A.fbx
+  artifactKey: Guid(e18dc5083d5f03849beb2013360915be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FarmerWar/Environment/MoonlightStudios/Casual Farming Pack/Models/Nature/Flower_A.fbx using Guid(e18dc5083d5f03849beb2013360915be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b18b208741f86dbbb80a1de7535989a1') in 0.001744 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 121.850431 seconds.
+  path: Assets/FarmerWar/Environment/MoonlightStudios/Casual Farming Pack/Models/Nature/Apple_A.fbx
+  artifactKey: Guid(d7d898a6e30f65448a92dac594226daf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FarmerWar/Environment/MoonlightStudios/Casual Farming Pack/Models/Nature/Apple_A.fbx using Guid(d7d898a6e30f65448a92dac594226daf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43d8f2ba108d5316bb40034f108700fc') in 0.001411 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.005716 seconds.
+  path: Assets/FarmerWar/Environment/MoonlightStudios/Casual Farming Pack/Models/Nature/Bush_B.fbx
+  artifactKey: Guid(5d771eac98b6a6c4ea14923e7d3c4d89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FarmerWar/Environment/MoonlightStudios/Casual Farming Pack/Models/Nature/Bush_B.fbx using Guid(5d771eac98b6a6c4ea14923e7d3c4d89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '031d588085bdf37860be242b533fb298') in 0.001909 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/FarmerWar/Environment/MoonlightStudios/Casual Farming Pack/Models/Nature/Apple_C.fbx
+  artifactKey: Guid(9f24070369fcecc499c138d28c0e4c19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FarmerWar/Environment/MoonlightStudios/Casual Farming Pack/Models/Nature/Apple_C.fbx using Guid(9f24070369fcecc499c138d28c0e4c19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceeda9d7212744f69daad06d2c28f5a4') in 0.001912 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: Bir iþ parçacýðý çýkýþý veya bir uygulama isteði nedeniyle G/Ç iþlemi iptal edildi.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

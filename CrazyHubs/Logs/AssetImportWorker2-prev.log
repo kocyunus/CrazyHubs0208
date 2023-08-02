@@ -1,0 +1,472 @@
+Using pre-set license
+Built from '2022.3/release' branch; Version is '2022.3.0f1 (fb119bb0b476) revision 16454043'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'tr' Physical Memory: 16175 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.0f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Projects/CrazyHubs
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+58678
+Successfully changed project path to: C:/Projects/CrazyHubs
+C:/Projects/CrazyHubs
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [27104] Host "[IP] 192.168.1.108 [Port] 0 [Flags] 2 [Guid] 779654128 [EditorId] 779654128 [Version] 1048832 [Id] WindowsEditor(7,Yunus) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [27104] Host "[IP] 192.168.1.108 [Port] 0 [Flags] 2 [Guid] 779654128 [EditorId] 779654128 [Version] 1048832 [Id] WindowsEditor(7,Yunus) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 11.72 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.0f1 (fb119bb0b476)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Projects/CrazyHubs/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 6600 (ID=0x73ff)
+    Vendor:   ATI
+    VRAM:     8147 MB
+    Driver:   31.0.14051.5006
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.0f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56032
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.0f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.0f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007876 seconds.
+- Loaded All Assemblies, in  0.267 seconds
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 201 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.463 seconds
+Domain Reload Profiling: 729ms
+	BeginReloadAssembly (67ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (114ms)
+		LoadAssemblies (65ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (108ms)
+			TypeCache.Refresh (107ms)
+				TypeCache.ScanAssembly (98ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (463ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (417ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (298ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (78ms)
+			ProcessInitializeOnLoadMethodAttributes (36ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Projects\CrazyHubs\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Projects\CrazyHubs\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.705 seconds
+Refreshing native plugins compatible for Editor in 8.92 ms, found 6 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.707 seconds
+Domain Reload Profiling: 1408ms
+	BeginReloadAssembly (111ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (523ms)
+		LoadAssemblies (287ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (290ms)
+			TypeCache.Refresh (257ms)
+				TypeCache.ScanAssembly (245ms)
+			ScanForSourceGeneratedMonoScriptInfo (23ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (707ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (569ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (28ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (70ms)
+			ProcessInitializeOnLoadAttributes (412ms)
+			ProcessInitializeOnLoadMethodAttributes (49ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 6.88 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6162 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 94 unused Assets / (425.3 KB). Loaded Objects now: 6635.
+Memory consumption went from 301.2 MB to 300.8 MB.
+Total: 4.045500 ms (FindLiveObjects: 0.390700 ms CreateObjectMapping: 0.379800 ms MarkObjects: 3.061900 ms  DeleteObjects: 0.212000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/IconTargetFollower.cs: 0a134dc009c2b65a9cefd3d6bc215ca5 -> 2eeac594458a93ed0b522eec0ac90187
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/EnemyRadar.cs: 6bf109bc4bb5069b4356c423d6690a86 -> aeaeae7e8a1a8e6e3906513da88095ef
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/LookCamera.cs: e4c6d775271c50932426183619603eb8 -> 3c7b657a3f19238b12c5d93ab8a140ba
+  custom:scripting/monoscript/fileName/EnemyFrontCheckThrower.cs: e6d2643acfe9e3ccfe3e4e1a7a1d9568 -> f8400a36827bfc6adaafa51082288699
+  custom:scripting/monoscript/fileName/IconTarget.cs: 7b6e60b97894a91bcd70a88281db8771 -> ae7432364f6008bbf61a82c15e97ee49
+  custom:scripting/monoscript/fileName/Singleton.cs: 716086397f6fce3cf59561531ac052e5 -> 8f6297df34271fdb1ce2d9607ec6261d
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/SelfPutPoolShutgunPRojectile.cs: cf2a2d690806a1cd30fc6b12dc8b0173 -> 786d5fbd3064bbbf65e7b3f2b8811d3e
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/RadarChanger.cs: 155b606ae9047319175c9d5a3862516b -> a057cf9f382c80ce38842b0b89fd1e55
+  custom:scripting/monoscript/fileName/ScriptablePooler.cs: 7552244f74fc252daee36eb2f1d5b2e9 -> b625d8144fc19f133667031c7c8a0513
+  custom:scripting/monoscript/fileName/SelfPutPool.cs: 7790060eac3396f64df98c98708c0772 -> 20bfc76168c3ea3aabcffde4368cad1a
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/DamageNumberSpawner.cs: 1c3c7bec83b17e1744039bcadc3d6c4e -> 0428bd6e4b1575250ce53aba5154ed3c
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 74483.021814 seconds.
+  path: Assets/FarmerWar/Environment/MoonlightStudios/Casual Farming Pack/Prefabs/Props
+  artifactKey: Guid(5ea5ea57f0d4fb34b8168def6788f144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FarmerWar/Environment/MoonlightStudios/Casual Farming Pack/Prefabs/Props using Guid(5ea5ea57f0d4fb34b8168def6788f144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01fb009984a324974498d160fee3a1d7') in 0.006054 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.037147 seconds.
+  path: Assets/FarmerWar/Environment/MoonlightStudios/Casual Farming Pack/Prefabs/Props/Axe.prefab
+  artifactKey: Guid(0f86d0b7f557b514095a532f9879337f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FarmerWar/Environment/MoonlightStudios/Casual Farming Pack/Prefabs/Props/Axe.prefab using Guid(0f86d0b7f557b514095a532f9879337f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '590e659f7c791493fc802c4ed9559769') in 0.002198 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/FarmerWar/Environment/MoonlightStudios/Casual Farming Pack/Prefabs/Props/Bridge.prefab
+  artifactKey: Guid(2efca12387c6d4c428e0fee7a1c94a03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FarmerWar/Environment/MoonlightStudios/Casual Farming Pack/Prefabs/Props/Bridge.prefab using Guid(2efca12387c6d4c428e0fee7a1c94a03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a7517402b5ac5e7f283e25bee652daa') in 0.001364 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/FarmerWar/Environment/MoonlightStudios/Casual Farming Pack/Prefabs/Props/Pier.prefab
+  artifactKey: Guid(c9004282cee557e4ebe32fc100d9b3cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FarmerWar/Environment/MoonlightStudios/Casual Farming Pack/Prefabs/Props/Pier.prefab using Guid(c9004282cee557e4ebe32fc100d9b3cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7016f88b284ec4dab39ad3f71bd45662') in 0.001603 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/FarmerWar/Environment/MoonlightStudios/Casual Farming Pack/Prefabs/Props/Sytche.prefab
+  artifactKey: Guid(e9829aaf718983641ad3517f43ce830a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FarmerWar/Environment/MoonlightStudios/Casual Farming Pack/Prefabs/Props/Sytche.prefab using Guid(e9829aaf718983641ad3517f43ce830a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '806a54361254c8952adad682f4e75142') in 0.001723 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/FarmerWar/Environment/MoonlightStudios/Casual Farming Pack/Prefabs/Props/Wheelbarrow.prefab
+  artifactKey: Guid(8b92c72913218fd49bdf0b528cb7e030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FarmerWar/Environment/MoonlightStudios/Casual Farming Pack/Prefabs/Props/Wheelbarrow.prefab using Guid(8b92c72913218fd49bdf0b528cb7e030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b395b6ea344575d8477e75e100887122') in 0.001611 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/FarmerWar/Environment/MoonlightStudios/Casual Farming Pack/Prefabs/Props/Sign_B.prefab
+  artifactKey: Guid(34c43566fab08ee438926261b89514aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FarmerWar/Environment/MoonlightStudios/Casual Farming Pack/Prefabs/Props/Sign_B.prefab using Guid(34c43566fab08ee438926261b89514aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd262b28420b87cf09c8aadbd549f83a5') in 0.001439 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 37.286883 seconds.
+  path: Assets/FarmerWar/Environment/MoonlightStudios/Casual Farming Pack/Prefabs/Paths
+  artifactKey: Guid(a13f4b73c1315d644979f20e043d2a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FarmerWar/Environment/MoonlightStudios/Casual Farming Pack/Prefabs/Paths using Guid(a13f4b73c1315d644979f20e043d2a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1f5d8d2011c1a50a043e71c96c783a6') in 0.000476 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.041590 seconds.
+  path: Assets/FarmerWar/Environment/MoonlightStudios/Casual Farming Pack/Prefabs/Paths/Path_A.prefab
+  artifactKey: Guid(8f223aa8525d55242b553128aa036feb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FarmerWar/Environment/MoonlightStudios/Casual Farming Pack/Prefabs/Paths/Path_A.prefab using Guid(8f223aa8525d55242b553128aa036feb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f7176ecd22f21253dfb01a82ca50452') in 0.001229 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/FarmerWar/Environment/MoonlightStudios/Casual Farming Pack/Prefabs/Paths/Path_E.prefab
+  artifactKey: Guid(58fd4e998690a814398c91373f466f63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FarmerWar/Environment/MoonlightStudios/Casual Farming Pack/Prefabs/Paths/Path_E.prefab using Guid(58fd4e998690a814398c91373f466f63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '830e578110f73026e4b291b2752f67f2') in 0.001349 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 51.442197 seconds.
+  path: Assets/FarmerWar/Environment/MoonlightStudios/Casual Farming Pack/Prefabs/Rocks
+  artifactKey: Guid(bd26a825be1df7149855da5aad6f0175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FarmerWar/Environment/MoonlightStudios/Casual Farming Pack/Prefabs/Rocks using Guid(bd26a825be1df7149855da5aad6f0175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2db5c9f1084ac921014b6926dc3fcce9') in 0.000518 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.071818 seconds.
+  path: Assets/FarmerWar/Environment/MoonlightStudios/Casual Farming Pack/Prefabs/Rocks/Rock_A.prefab
+  artifactKey: Guid(b0ee91619dcf3e04f8bfc14d7b0c2ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FarmerWar/Environment/MoonlightStudios/Casual Farming Pack/Prefabs/Rocks/Rock_A.prefab using Guid(b0ee91619dcf3e04f8bfc14d7b0c2ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb6b658eec2c31395227cb9a3c2d572a') in 0.001367 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/FarmerWar/Environment/MoonlightStudios/Casual Farming Pack/Prefabs/Rocks/Rock_E.prefab
+  artifactKey: Guid(08b1968ae7eee0c4ca6a52b61ba4378c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FarmerWar/Environment/MoonlightStudios/Casual Farming Pack/Prefabs/Rocks/Rock_E.prefab using Guid(08b1968ae7eee0c4ca6a52b61ba4378c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '130dc9ff6c0db1522ab1ec5177d76964') in 0.001359 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 488.601761 seconds.
+  path: Assets/FarmerWar/Environment/MoonlightStudios/Casual Farming Pack/Prefabs/Nature
+  artifactKey: Guid(92fb98573d1ec1b4489ef1f4a5551c86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FarmerWar/Environment/MoonlightStudios/Casual Farming Pack/Prefabs/Nature using Guid(92fb98573d1ec1b4489ef1f4a5551c86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '933a09bb3c35478429845dd6a3528a9e') in 0.000516 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.582893 seconds.
+  path: Assets/FarmerWar/Environment/MoonlightStudios/Casual Farming Pack/Prefabs/Nature/Apple_A.prefab
+  artifactKey: Guid(60550cd95a2f16f46bf46efa4dde8897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FarmerWar/Environment/MoonlightStudios/Casual Farming Pack/Prefabs/Nature/Apple_A.prefab using Guid(60550cd95a2f16f46bf46efa4dde8897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3107debad6f1de6ebc419a3fc81a9ce') in 0.001360 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.007286 seconds.
+  path: Assets/FarmerWar/Environment/MoonlightStudios/Casual Farming Pack/Prefabs/Nature/Apple_C.prefab
+  artifactKey: Guid(eef3bdc9fb117e44db204b211da534e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FarmerWar/Environment/MoonlightStudios/Casual Farming Pack/Prefabs/Nature/Apple_C.prefab using Guid(eef3bdc9fb117e44db204b211da534e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa835134ca597c1ebf51fade390da053') in 0.001608 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/FarmerWar/Environment/MoonlightStudios/Casual Farming Pack/Prefabs/Nature/Carrot.prefab
+  artifactKey: Guid(85996443fbd62404e9726554b2ec7fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FarmerWar/Environment/MoonlightStudios/Casual Farming Pack/Prefabs/Nature/Carrot.prefab using Guid(85996443fbd62404e9726554b2ec7fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9bb8373c6e42d27119c4a7721ca3b00') in 0.001437 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/FarmerWar/Environment/MoonlightStudios/Casual Farming Pack/Prefabs/Nature/Flower_C.prefab
+  artifactKey: Guid(555b726d81beb7e43a2cfecce292ef4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FarmerWar/Environment/MoonlightStudios/Casual Farming Pack/Prefabs/Nature/Flower_C.prefab using Guid(555b726d81beb7e43a2cfecce292ef4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd44e635234b29a6729546ed5c3024961') in 0.001490 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/FarmerWar/Environment/MoonlightStudios/Casual Farming Pack/Prefabs/Nature/Lillypad.prefab
+  artifactKey: Guid(65ef81ce299863942bd3820727fe6d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FarmerWar/Environment/MoonlightStudios/Casual Farming Pack/Prefabs/Nature/Lillypad.prefab using Guid(65ef81ce299863942bd3820727fe6d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0a41d551dac0c9cf6e98ea4798c8410') in 0.001372 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/FarmerWar/Environment/MoonlightStudios/Casual Farming Pack/Prefabs/Nature/Tree_A.prefab
+  artifactKey: Guid(af1d6a17a29090846bf7d1e19ebed0e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FarmerWar/Environment/MoonlightStudios/Casual Farming Pack/Prefabs/Nature/Tree_A.prefab using Guid(af1d6a17a29090846bf7d1e19ebed0e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35f7f8bb5763948cfacbf12424e2a3f3') in 0.001643 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/FarmerWar/Environment/MoonlightStudios/Casual Farming Pack/Prefabs/Nature/Watermelon_Slice.prefab
+  artifactKey: Guid(270730c4273cf8e48b9a527e8662042f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FarmerWar/Environment/MoonlightStudios/Casual Farming Pack/Prefabs/Nature/Watermelon_Slice.prefab using Guid(270730c4273cf8e48b9a527e8662042f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3a11457f602c4c191ce953d1a61e429') in 0.001455 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/FarmerWar/Environment/MoonlightStudios/Casual Farming Pack/Prefabs/Nature/Sunflower.prefab
+  artifactKey: Guid(b0942d26f0256b94cb62b8ae5b71370d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FarmerWar/Environment/MoonlightStudios/Casual Farming Pack/Prefabs/Nature/Sunflower.prefab using Guid(b0942d26f0256b94cb62b8ae5b71370d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3a5bc42922115031bfb797620d2a5b8') in 0.001358 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/FarmerWar/Environment/MoonlightStudios/Casual Farming Pack/Prefabs/Nature/Grass.prefab
+  artifactKey: Guid(fa0b96d9e4e970b439c6301b2b212b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FarmerWar/Environment/MoonlightStudios/Casual Farming Pack/Prefabs/Nature/Grass.prefab using Guid(fa0b96d9e4e970b439c6301b2b212b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c36db7709c68e9440ffc35371279d38b') in 0.002005 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/FarmerWar/Environment/MoonlightStudios/Casual Farming Pack/Prefabs/Nature/Mushroom.prefab
+  artifactKey: Guid(084aca7975ea8ba469e1c4d06cf95081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FarmerWar/Environment/MoonlightStudios/Casual Farming Pack/Prefabs/Nature/Mushroom.prefab using Guid(084aca7975ea8ba469e1c4d06cf95081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f671cf95689e5f4dbd02c475d17302d') in 0.001410 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/FarmerWar/Environment/MoonlightStudios/Casual Farming Pack/Prefabs/Nature/Bush_D.prefab
+  artifactKey: Guid(e71097358ba03b746b158ba2ff57e5bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FarmerWar/Environment/MoonlightStudios/Casual Farming Pack/Prefabs/Nature/Bush_D.prefab using Guid(e71097358ba03b746b158ba2ff57e5bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0761af151f52b61c1e0e1b5268213bfc') in 0.001645 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/FarmerWar/Environment/MoonlightStudios/Casual Farming Pack/Prefabs/Nature/Haybale.prefab
+  artifactKey: Guid(b6d2388ff6a29054e9e7e4a0e8359f9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FarmerWar/Environment/MoonlightStudios/Casual Farming Pack/Prefabs/Nature/Haybale.prefab using Guid(b6d2388ff6a29054e9e7e4a0e8359f9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b32a798ba918148c15cb2fd0e3baaac6') in 0.001391 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 3.706292 seconds.
+  path: Assets/FarmerWar/Environment/MoonlightStudios/Casual Farming Pack/Prefabs/Nature/Wheat.prefab
+  artifactKey: Guid(1f0081a85bd3fa04ba2eba1805c79d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FarmerWar/Environment/MoonlightStudios/Casual Farming Pack/Prefabs/Nature/Wheat.prefab using Guid(1f0081a85bd3fa04ba2eba1805c79d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dd9fe6fea51d0279f067a5eb64fa6db') in 0.001713 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 197.193057 seconds.
+  path: Assets/FarmerWar/Environment/MoonlightStudios/Casual Farming Pack/Models/Nature/Flower_C.fbx
+  artifactKey: Guid(87228be6894c52e41a65da147f56c621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FarmerWar/Environment/MoonlightStudios/Casual Farming Pack/Models/Nature/Flower_C.fbx using Guid(87228be6894c52e41a65da147f56c621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9376751bcd73634db2e1e809fbee3fa') in 0.001515 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.012402 seconds.
+  path: Assets/FarmerWar/Environment/MoonlightStudios/Casual Farming Pack/Models/Nature/Grass.fbx
+  artifactKey: Guid(92a2fb9c2fa796a4bb13c82b4ce0d579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FarmerWar/Environment/MoonlightStudios/Casual Farming Pack/Models/Nature/Grass.fbx using Guid(92a2fb9c2fa796a4bb13c82b4ce0d579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61a03d52c76153216c5dff500962ff93') in 0.001320 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/FarmerWar/Environment/MoonlightStudios/Casual Farming Pack/Models/Nature/Sunflower.fbx
+  artifactKey: Guid(63305dcfdf6d49043820a5360107fee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FarmerWar/Environment/MoonlightStudios/Casual Farming Pack/Models/Nature/Sunflower.fbx using Guid(63305dcfdf6d49043820a5360107fee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9cc084e5b7999fae47f0adea115d75a') in 0.001491 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/FarmerWar/Environment/MoonlightStudios/Casual Farming Pack/Models/Nature/Watermelon_Slice.fbx
+  artifactKey: Guid(bea3154abb6936c4cb499ec9d25229bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FarmerWar/Environment/MoonlightStudios/Casual Farming Pack/Models/Nature/Watermelon_Slice.fbx using Guid(bea3154abb6936c4cb499ec9d25229bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d184b4103d3130755ed9a59d73cf062') in 0.001404 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/FarmerWar/Environment/MoonlightStudios/Casual Farming Pack/Models/Nature/Wheat.fbx
+  artifactKey: Guid(93bc8163aaac20c458f9b4cecaa43a7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FarmerWar/Environment/MoonlightStudios/Casual Farming Pack/Models/Nature/Wheat.fbx using Guid(93bc8163aaac20c458f9b4cecaa43a7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e60691b5b3b5f0c222dc46892d064a7') in 0.001330 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/FarmerWar/Environment/MoonlightStudios/Casual Farming Pack/Models/Nature/Mushroom.fbx
+  artifactKey: Guid(62de7de17db8b554a80e4913d314d4f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FarmerWar/Environment/MoonlightStudios/Casual Farming Pack/Models/Nature/Mushroom.fbx using Guid(62de7de17db8b554a80e4913d314d4f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e62dba1967745590484a2921ebf3a6c9') in 0.001455 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/FarmerWar/Environment/MoonlightStudios/Casual Farming Pack/Models/Nature/Tree_Log.fbx
+  artifactKey: Guid(0a1f60a6958e917488ebcb1b732135d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FarmerWar/Environment/MoonlightStudios/Casual Farming Pack/Models/Nature/Tree_Log.fbx using Guid(0a1f60a6958e917488ebcb1b732135d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2392ce8c1a70682e833f6bb90001364') in 0.001423 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: Bir iþ parçacýðý çýkýþý veya bir uygulama isteði nedeniyle G/Ç iþlemi iptal edildi.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
